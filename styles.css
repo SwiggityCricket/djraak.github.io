@@ -1,3 +1,6 @@
+:root {
+    --main-color: #389748;
+}
 body {
     font-family: sans-serif;
     background-color: black;
@@ -6,6 +9,66 @@ body {
     text-align: center;
 }
 h1 {
-    color: #389748;
+    color: var(--main-color);
+    font-size: 40px;
 
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    color: var(--main-color);
+}
+.login {
+    background-color: gray;
+    font-family: sans-serif;
+    width: 310px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+label {
+    color: black;
+}
+#Uname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+.btn {
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 20px;
+    border: #FFFFFF 2px solid;
+
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:75px;
+    font-weight:800;
+    font-size:0.8em;
+
+    color: var(--main-color);
+
+    background: black;
+
+}
+.btn:hover {
+    background: #4B4B4B;
+}
+span {
+    color: white;
+    /*font-size: 17px;*/
 }
