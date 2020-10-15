@@ -30,6 +30,20 @@ a {
 b{
     padding-bottom: 10px;
 }
+dt{
+    text-align: left;
+    color: var(--main-color);
+    font-weight: bold;
+    padding-left:10em;
+    padding-top:2em;
+
+}
+dd{
+    text-align: left;
+    color: var(--secondary-color);
+    padding-left:10em;
+
+}
 span {
     color: white;
     /*font-size: 17px;*/
