@@ -49,3 +49,7 @@ span {
     color: white;
     /*font-size: 17px;*/
 }
+picture {
+    max-width:100%;
+    height: auto;
+}
