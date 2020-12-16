@@ -8,6 +8,7 @@
 }
 
 .u-section-1 .u-btn-1 {
+  animation-duration: 1000ms;
   padding: 0;
 }
 
@@ -173,7 +174,6 @@
   margin-top: 32px;
   margin-bottom: 32px;
   min-height: 487px;
-  height: auto;
 }
 
 .u-section-3 .u-carousel-indicators-1 {
@@ -212,6 +212,12 @@
 .u-section-3 .u-carousel-control-2 {
   width: 50px;
   height: 50px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-slider-1 {
+    height: auto;
+  }
 }
 
 @media (max-width: 991px) {
